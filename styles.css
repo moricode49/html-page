@@ -1,0 +1,76 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+} */
+
+*{
+    background-color: #5b8e7d;
+}
+.grid_container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header' 
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+}
+.left{
+    grid-area: left;
+    
+}
+.middle{
+    grid-area: middle;
+}
+.right{
+    grid-area: right;
+}
+.header{
+    grid-area: header;
+    text-align: center;
+    font-family: Arial;
+}
+h1{
+    color: #bc4b51;
+    font-size: 40px;
+}
+h2{
+    color: #f4a259;
+    font-size: 30px;
+}
+#first_image {
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#masters_image{
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* padding-left: 40%; */
+    /* padding-right: 40%; */
+    
+}
+#achievements_section{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+.top_links{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    /* padding-left: 50%; */
+}
+.list{
+    color: white;
+    font-size: 20px;
+}
+footer{
+    color:#bc4b51;
+    text-align: center;
+}
